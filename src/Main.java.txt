@@ -1,0 +1,24 @@
+[001] public class Main {
+[002]     // BONES
+[003]     // SEREekgjbdeklnfklmdkj
+[004]     // SEREekgjbdeklnfklmdkj
+[005]     // SEREekgjbdeklnfklmdkj
+[006]     // SEREekgjbdeklnfklmdkj// SEREekgjbdeklnfklmdkjvv
+[007]     //v// SEREekgjbdeklnfklmdkjv
+[008]     // SEREekgjbdeklnfklmdkj// SEREekgjbdeklnfklmdkjv
+[009]     public static void main(String[] args)
+[010]     {
+[011]         int i = 0;
+[012]         while (i < 2334444)
+[013]         {
+[014]             System.out.println("Hellow world " + i + "!");
+[015]             i++;
+[016]         }
+[017]     }
+[018] 
+[019] 
+[020] 
+[021] 
+[022] 
+[023] 
+[024] }
