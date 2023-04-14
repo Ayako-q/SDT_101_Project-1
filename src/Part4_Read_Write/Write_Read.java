@@ -69,10 +69,15 @@ public class Write_Read
         {
             return true;
         }
-        else
+        else if (userAnsw.toLowerCase().equals("n"))
         {
             System.out.println("Sorry to hear that! Bye!");
             return false;
+        }
+        else
+        {
+            System.out.println("Sorry, but your answer is something different from Y/N, try again!");
+            return askUser();
         }
     }
 }
