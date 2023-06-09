@@ -1,5 +1,7 @@
 package Part1;
 
+import java.util.ArrayList;
+
 /*
 SDT 101
 Part 1 - arrays
@@ -103,5 +105,19 @@ public class Arrays {
         }
         System.out.println("\nInitialisation 5 (optional) :\n");
         printArray(ar1);
+    }
+
+    public static int arrayListRemove(ArrayList <Integer> list, int value)
+    {
+        if (list.size() == 0) {return 0;}
+        else
+        {
+
+            for (Integer v : list)
+            {
+                if (v == value) {list.remove(v);}
+            }
+            return 1;
+        }
     }
 }

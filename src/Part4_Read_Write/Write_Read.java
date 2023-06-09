@@ -13,7 +13,7 @@ public class Write_Read
     public static void main(String[] args)
     {
         boolean running = askUser();
-        while (running == true)
+        while (running)
         {
             BufferedReader reader = null;
             BufferedWriter writer = null;
